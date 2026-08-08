@@ -1,15 +1,38 @@
-!DOCTYPE html>
-<html lang="ha">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ludomoney</title>
+  <title>Ludomoney.ng - Game Earn Play</title>
   <style>
-    body { font-family: Arial; text-align: center; padding: 50px; background: #f0f0f0; }
-    h1 { color: #2563eb; }
+    body { font-family: Arial; margin:0; background:#f0fdf4; text-align:center; }
+    header { background:#008751; color:white; padding:15px; }
+    .btn { background:#008751; color:white; padding:12px 25px; border:none; border-radius:8px; margin:10px; cursor:pointer; }
+    .card { background:white; padding:20px; margin:20px auto; width:90%; max-width:400px; border-radius:10px; box-shadow:0 2px 5px #ccc; }
+    input { width:90%; padding:10px; margin:8px 0; border:1px solid #ccc; border-radius:5px; }
   </style>
 </head>
 <body>
-  <h1>🎉 Barka da zuwa Ludomoney</h1>
-  <p>Site dinka ya fara aiki a Vercel!</p>
+  <header>
+    <h1>🇳🇬 Ludomoney.ng</h1>
+    <p>GAME • EARN • PLAY</p>
+  </header>
+
+  <div class="card">
+    <h2>Register / Login</h2>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button class="btn">Login</button>
+    <button class="btn">Register</button>
+  </div>
+
+  <div class="card">
+    <h2>Dashboard</h2>
+    <p><b>Wallet Balance:</b> ₦0.00</p>
+    <p><b>Minimum Deposit:</b> ₦200 - ₦100,000</p>
+    <p><b>Minimum Withdrawal:</b> ₦200 - ₦100,000</p>
+    <button class="btn">Deposit</button>
+    <button class="btn">Withdraw</button>
+  </div>
+
 </body>
 </html>
